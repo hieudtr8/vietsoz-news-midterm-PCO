@@ -1,0 +1,27 @@
+.text-center{
+    text-align: center;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.clear-both{
+    clear: both;
+}
+.type-none{
+    list-style-type: none;
+}
+.d-flex{
+    display: flex;
+}
+.text-deco-none{
+    text-decoration: none;
+}
+.font-bold{
+    font-weight: bold;
+}

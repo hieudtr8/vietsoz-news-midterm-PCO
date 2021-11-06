@@ -1,0 +1,131 @@
+#nav {
+    background-color: #f3f3f3;
+    position: relative;
+    z-index: -1;
+}
+
+#nav a {
+    font-size: 13px;
+}
+
+#nav i {
+    padding: 5px 5px 0px 5px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+#top-news {
+    margin-bottom: 30px;
+}
+
+#top-news img {
+    margin-right: 30px;
+}
+
+#top-news:hover a.a-title h3 {
+    color: #4db2ec;
+    transition: all 0.2s;
+}
+
+#top-news a.a-title h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+ul#event-news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: spaces-around;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #01a050;
+}
+
+ul#event-news li {
+    display: flex;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+ul#event-news li:hover a.a-title {
+    color: #4db2ec;
+    transition: all 0.2s;
+}
+
+ul#event-news li img {
+    margin-right: 20px;
+}
+
+ul#event-news li a.a-title {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+ul#body-event-news {
+    margin-bottom: 60px
+}
+
+ul#body-event-news li {
+    /* max-height: 140px; */
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+ul#body-event-news li:hover a.a-title {
+    color: #4db2ec;
+    transition: all 0.2s;
+}
+
+ul#body-event-news li img {
+    margin-right: 20px;
+}
+
+ul#body-event-news li a.a-title {
+    font-size: 20px;
+}
+
+ul#body-event-news li .date {
+    font-size: 12px;
+    color: #959595;
+}
+
+ul#body-event-news li p.more-infor {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.page {
+    text-align: center;
+}
+
+.page h4 {
+    padding: 12px 0px;
+    margin-right: 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.page ul li {
+    display: inline-block;
+}
+
+.page a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0b0b0b;
+    padding: 12px 15px;
+    margin-right: 8px;
+    border: 1px solid #dedede;
+}
+
+.page a:hover {
+    background-color: #01a050;
+    transition: all 0.2s;
+}
+
+.page i {
+    font-size: 12px;
+}
