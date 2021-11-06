@@ -153,7 +153,8 @@ ul#responsive-menu li:hover:not(:last-child) {
     margin-right: 30px;
 }
 
-.hot-news img {
+#top-content .hot-news img {
+    max-width: 100%;
     margin-bottom: 35px;
 }
 
@@ -224,17 +225,15 @@ ul.other-news li:hover a.a-title {
     margin-bottom: 25px;
 }
 
-#category .title .bg {
-    background-color: #01a050;
-    max-width: 96px;
-}
 
 #category .title h3 {
     font-size: 20px;
+    background-color: #01a050;
     color: #fefefe;
     display: inline-block;
     font-weight: 600;
-    margin-bottom: 0PX;
+    margin-bottom: 0px;
+    padding: 10px 20px;
 }
 
 #category .hot-news a h3 {
