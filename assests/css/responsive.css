@@ -47,7 +47,7 @@
     ul.other-news li:last-child {
         display: none;
     }
-    #wp-content{
+    #wp-content {
         margin-left: 5%;
     }
     /* REsponsive menu */
@@ -93,7 +93,6 @@
         margin: 0px;
     }
     /* RESponsive for category */
-  
     #top-news img {
         width: 100%;
         height: auto;
@@ -121,7 +120,10 @@
     ul#event-news li:nth-last-child(2) {
         display: none;
     }
-    #wp-content{
+    .hot-news p.descript {
+        display: none;
+    }
+    #wp-content {
         margin-left: 0px;
     }
 }
